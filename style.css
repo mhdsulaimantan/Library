@@ -1,0 +1,126 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btns {
+    display: flex;
+    gap: 2rem;
+}
+
+button {
+    color: white;
+    border-radius: 3rem;
+    border-style: none;
+    width: 8.5rem;
+    height: 3rem;
+    font-weight: bold;
+}
+
+button.add {
+    background-color: dodgerblue;
+}
+
+button.display {
+    background-color: rgb(0, 167, 36);
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+button.add:hover {
+    border: 0.2rem solid dodgerblue;
+}
+
+button.display:hover {
+    border: 0.2rem solid rgb(0, 167, 36);
+}
+
+fieldset {
+    background-color: white;
+    border: 0.1rem solid gray;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px gray;
+}
+
+fieldset legend {
+    font-size: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+fieldset .new-book {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.new-book input {
+    width: 10rem;
+    height: 1.5rem;
+    border: 0.05rem solid black;
+    border-radius: 0.5rem;
+}
+
+.check-box input {
+    width: 1rem;
+    height: auto;
+}
+
+.new-book input#submit {
+    width: 5rem;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+}
+
+.new-book input#submit:hover {
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+}
+
+table {
+    background-color: gray;
+    box-shadow: 5px 5px 10px gray;
+}
+
+table th {
+    width: 10rem;
+    height: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    background-color: white;
+}
+
+button.delete {
+    width: 5rem;
+    height: 1.3rem;
+    background-color: red;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+button.delete:hover {
+    background-color: white;
+    color: red;
+    border: 0.1rem solid red;
+}

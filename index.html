@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Library</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Library</h1>
+        <p>This is a project to test the knowledge on the Constructor and Prototype in JavaScript</p>
+        <div class="btns">
+            <button class="add">+ New Book</button>
+            <button class="display">Display All Books</button>
+        </div>
+
+
+        <fieldset hidden>
+            <legend>New Book</legend>
+            <form class="new-book">
+
+                <label for="title">Book Title:</label>
+                <input id="title" type="test" name="title" required>
+
+                <label for="author">Book Author:</label>
+                <input id="author" type="text" name="author" required>
+
+                <label for="number">Number of Pages:</label>
+                <input id="pages" type="number" name="num-of-pages" min="1" required>
+
+                <div class="check-box">
+                    <input id="read" type="checkbox" name="read">
+                    <label for="read">Did you read the book?</label>
+                </div>
+
+                <input type="button" id="submit" value="ADD">
+            </form>
+        </fieldset>
+        <br>
+        <table hidden>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Number of pages</th>
+                <th>I already Read the book</th>
+                <th></th>
+            </tr>
+        </table>
+        <br>
+    </div>
+
+</body>
+
+</html>
